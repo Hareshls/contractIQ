@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pdfplumber
+python-docx
+python-multipart
+python-dotenv
+requests
+gunicorn
+groq
+passlib[bcrypt]
+python-jose[cryptography]
+motor
+email-validator
+bcrypt==4.0.1
