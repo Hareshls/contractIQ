@@ -53,7 +53,7 @@ const Auth = ({ onAuthSuccess }) => {
              <Shield size={32} fill="rgba(168, 85, 247, 0.2)" stroke="#a855f7" />
           </div>
           <h1 className="auth-title">{isLogin ? 'Welcome Back' : 'Create Account'}</h1>
-          <p className="auth-subtitle">{isLogin ? 'Login to access your contract analyses' : 'Join LexGuard AI for premium contract insights'}</p>
+          <p className="auth-subtitle">{isLogin ? 'Login to access your contract analyses' : 'Join ContractIQ for premium contract insights'}</p>
         </div>
 
         <form onSubmit={handleSubmit} className="auth-form">

@@ -134,8 +134,8 @@ const Dashboard = ({ recentUploads, onNavigate, onViewAnalysis }) => {
               <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', marginBottom: '0.5rem', opacity: 0.8 }}>System Status</div>
               <p style={{ fontWeight: 600, fontSize: '0.9375rem', lineHeight: 1.5 }}>
                 {safeUploads.length > 0 
-                  ? `You have successfully audited ${safeUploads.length} contracts with LexGuard AI.`
-                  : "LexGuard AI is ready. Upload your first contract to begin analysis."
+                  ? `You have successfully audited ${safeUploads.length} contracts with ContractIQ.`
+                  : "ContractIQ is ready. Upload your first contract to begin analysis."
                 }
               </p>
             </div>

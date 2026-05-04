@@ -60,7 +60,7 @@ const LandingPage = ({ onGetStarted }) => {
           <div className="logo-box">
             <FileText size={18} color="#fff" />
           </div>
-          <span className="logo-text" style={{ fontSize: '1.5rem' }}>LexGuard AI</span>
+          <span className="logo-text" style={{ fontSize: '1.5rem' }}>ContractIQ</span>
         </div>
         <nav style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
           <button 
@@ -152,7 +152,7 @@ const LandingPage = ({ onGetStarted }) => {
              <div style={{ width: '220px', height: '100%', background: 'var(--bg-surface)', borderRight: '1px solid var(--border)', padding: '1.5rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '2.5rem' }}>
                    <div className="logo-box" style={{ width: '24px', height: '24px' }}><FileText size={14} color="#fff" /></div>
-                   <span style={{ fontWeight: 800, fontSize: '0.875rem' }}>LexGuard AI</span>
+                   <span style={{ fontWeight: 800, fontSize: '0.875rem' }}>ContractIQ</span>
                 </div>
                 {['Dashboard', 'Upload', 'Analysis', 'Reports', 'Profile'].map((label, i) => (
                   <div key={i} style={{ 
@@ -271,7 +271,7 @@ const LandingPage = ({ onGetStarted }) => {
             </div>
             <h2 className="heading" style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>Eliminate Hidden <br />Contract Liabilities.</h2>
             <p style={{ fontSize: '1.25rem', maxWidth: '600px', margin: '0 auto 2.5rem', opacity: 0.9 }}>
-              Stop leaving your business exposed. Use LexGuard AI to audit your entire contract portfolio for legal and financial traps in minutes.
+              Stop leaving your business exposed. Use ContractIQ to audit your entire contract portfolio for legal and financial traps in minutes.
             </p>
             <button 
               className="btn" 
@@ -291,9 +291,9 @@ const LandingPage = ({ onGetStarted }) => {
           <div className="logo-box" style={{ width: '24px', height: '24px' }}>
             <FileText size={14} color="#fff" />
           </div>
-          <span className="logo-text" style={{ fontSize: '1.125rem' }}>LexGuard AI</span>
+          <span className="logo-text" style={{ fontSize: '1.125rem' }}>ContractIQ</span>
         </div>
-        <p style={{ color: 'var(--text-dim)', fontSize: '0.875rem' }}>© 2026 LexGuard AI. All rights reserved.</p>
+        <p style={{ color: 'var(--text-dim)', fontSize: '0.875rem' }}>© 2026 ContractIQ. All rights reserved.</p>
       </footer>
     </div>
   );

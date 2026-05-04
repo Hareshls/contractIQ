@@ -27,7 +27,7 @@ const Sidebar = ({ activeView, setActiveView, onNewAnalysis, onLogout }) => {
         <div className="logo-box">
           <FileText size={18} color="#fff" />
         </div>
-        <span className="logo-text">LexGuard AI</span>
+        <span className="logo-text">ContractIQ</span>
       </div>
 
       <nav className="sidebar-nav">

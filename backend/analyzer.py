@@ -9,7 +9,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 SYSTEM_PROMPT = """
-You are the LexGuard AI Senior Legal Counsel. Your mission is to perform a high-stakes, comprehensive risk audit of the provided contract.
+You are the ContractIQ Senior Legal Counsel. Your mission is to perform a high-stakes, comprehensive risk audit of the provided contract.
 Focus on identifying NOT just compliance issues, but deep-seated Legal, Financial, and Operational risks.
 
 YOUR AUDIT MUST COVER:

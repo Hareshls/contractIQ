@@ -1,4 +1,4 @@
-# LexGuard AI: Smart Contract Risk Analyzer
+# ContractIQ: Smart Contract Risk Analyzer
 
 A premium full-stack application that uses AI to analyze legal contracts, providing risk scores, summaries, and clause-by-clause breakdowns.
 

@@ -30,7 +30,7 @@ async def startup_db_client():
 
 @app.get("/")
 async def root():
-    return {"status": "online", "message": "LexGuard AI Backend Ready"}
+    return {"status": "online", "message": "ContractIQ Backend Ready"}
 
 # --- AUTH ENDPOINTS ---
 

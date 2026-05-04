@@ -9,7 +9,7 @@ MONGO_DETAILS = os.getenv("MONGO_URL", "mongodb://localhost:27017")
 
 client = AsyncIOMotorClient(MONGO_DETAILS)
 
-database = client.lexguard_ai
+database = client.contractiq
 
 # Collection references
 user_collection = database.get_collection("users")
