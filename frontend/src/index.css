@@ -420,6 +420,40 @@ input { font-family: inherit; }
   opacity: 0.4;
 }
 
+/* Animated Gradients */
+@keyframes textShine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+.text-gradient-animate {
+  background: linear-gradient(
+    to right,
+    #a855f7,
+    #6366f1,
+    #22d3ee,
+    #6366f1,
+    #a855f7
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textShine 4s linear infinite;
+}
+
+.glass-panel-bg {
+  position: absolute;
+  background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0) 100%);
+  border: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  border-radius: 32px;
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* Orbs */
 .ambient-orb {
   position: fixed;
